@@ -24,11 +24,6 @@ public class LectorConsola {
                     "Debes introducir un número.");
         }
 
-        if (numero != 0 && numero != 1 && numero != 9) {
-            throw new EntradaInvalidaException(
-                    "Solo puedes introducir 0 (Salir), 1 (Moverte) o 9 (Volver atrás).");
-        }
-
         return numero;
     }
 }
