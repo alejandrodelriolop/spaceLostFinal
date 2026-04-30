@@ -4,38 +4,46 @@ import java.util.ArrayList;
 
 import spaceLost.Objeto;
 
-public class Jugador extends Entidad {
+public class Jugador {
 
-    private ArrayList<Objeto> inventario;
+        private String nombre;
+        private int salaActual;
+        private int puntuacion;
 
-    public Jugador(String nombre) {
-        super(nombre, 100);
-        inventario = new ArrayList<>();
+        public Jugador(String nombre) {
+            this.nombre = nombre;
+            this.salaActual = 1;
+            this.puntuacion = 0;
+        }
+
+        public Jugador(String nombre, int salaActual, int puntuacion) {
+            this.nombre = nombre;
+            this.salaActual = salaActual;
+            this.puntuacion = puntuacion;
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public int getSalaActual() {
+            return salaActual;
+        }
+
+        public void setSalaActual(int salaActual) {
+            this.salaActual = salaActual;
+        }
+
+        public int getPuntuacion() {
+            return puntuacion;
+        }
+
+        public void setPuntuacion(int puntuacion) {
+            this.puntuacion = puntuacion;
+        }
+
+        @Override
+        public String toString() {
+            return nombre + ";" + salaActual + ";" + puntuacion;
+        }
     }
-
-    public void agregarObjetos(ArrayList<Objeto> objetos) {
-        inventario.addAll(objetos);
-    }
-
-    public boolean tieneObjeto(Objeto obj) {
-        return inventario.contains(obj);
-    }
-
-    public ArrayList<Objeto> getInventario() {
-        return inventario;
-    }
-
-    public void setInventario(ArrayList<Objeto> inventario) {
-        this.inventario = inventario;
-    }
-
-    public void mostrarInventario() {
-        System.out.println("Inventario: " + inventario);
-    }
-
-    @Override
-    public void actuar() {
-        System.out.println(nombre + " está listo para actuar.");
-    }
-
-}
