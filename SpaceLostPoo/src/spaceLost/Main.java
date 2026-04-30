@@ -3,7 +3,6 @@ package spaceLost;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import spaceLost.Entidad.Enemigo;
 import spaceLost.Entidad.Jugador;
 import spaceLost.escenas.*;
 import spaceLost.excepciones.EntradaInvalidaException;
