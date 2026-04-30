@@ -1,8 +1,4 @@
-package spaceLost.Entidad;
-
-import java.util.ArrayList;
-
-import spaceLost.Objeto;
+package spaceLost.gestorJugador;
 
 public class Jugador {
 
