@@ -4,7 +4,7 @@ package spaceLost;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import spaceLost.Entidad.Jugador;
+import spaceLost.gestorJugador.Jugador;
 import spaceLost.escenas.Escena;
 
 public abstract class Sala implements Escena {
