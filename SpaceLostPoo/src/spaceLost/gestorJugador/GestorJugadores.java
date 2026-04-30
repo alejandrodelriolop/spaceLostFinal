@@ -1,14 +1,12 @@
-package spaceLost.Entidad;
+package spaceLost.gestorJugador;
 
 import java.util.Map;
-import spaceLost.Entidad.Jugador;
-
 import java.io.*;
 import java.util.HashMap;
 
 public class GestorJugadores {
 
-        private Map<String, Jugador> jugadores;
+        private  Map<String, Jugador> jugadores;
         private final String RUTA_FICHERO = "jugadores.txt";
 
         public GestorJugadores() {
