@@ -15,7 +15,7 @@ public abstract class Sala implements Escena {
     private ArrayList<Sala> conexiones;
     private ArrayList<Objeto> objetos;
     private Objeto objetoRequerido; // null si no requiere nada
-    private Enemigo enemigo;
+
 
     public Sala(String nombre, String descripcion) {
         this.nombre = nombre;
@@ -35,13 +35,6 @@ public abstract class Sala implements Escena {
         }
     }
 
-    public void agregarObjeto(Objeto obj) {
-        objetos.add(obj);
-    }
-
-    public void requerirObjeto(Objeto obj) {
-        this.objetoRequerido = obj;
-    }
 
     public void mostrarInfo() {
         System.out.println("\n=== " + nombre + " ===");
@@ -64,12 +57,6 @@ public Sala irA(int opcion, Jugador jugador) {
 
     Sala destino = conexiones.get(opcion - 1);
 
-    if (destino.objetoRequerido != null &&
-        !jugador.tieneObjeto(destino.objetoRequerido)) {
-
-        System.out.println("Necesitas: " + destino.objetoRequerido.getNombre());
-        return this;
-    }
 
     return destino;
 }
@@ -89,15 +76,9 @@ public void entrar(Jugador jugador, Scanner sc, JuegoOxigeno juego) {
         visitada = true;
     }
 
-    if (enemigo != null && enemigo.estaVivo()) {
-        System.out.println("¡Aparece " + enemigo.getNombre() + "!");
-        enemigo.atacar(jugador);
-    }
+
 }
 
-public void agregarEnemigo(Enemigo enemigo) {
-    this.enemigo = enemigo;
-}
 
 
 
