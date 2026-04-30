@@ -2,7 +2,7 @@ package spaceLost.escenas;
 
 import java.util.Scanner;
 import spaceLost.JuegoOxigeno;
-import spaceLost.Sala;
+import spaceLost.gestorSalas.Sala;
 import spaceLost.retos.Ahorcado;
 
 public class Almacen extends Sala {

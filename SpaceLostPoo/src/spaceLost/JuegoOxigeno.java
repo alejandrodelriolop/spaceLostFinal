@@ -1,6 +1,6 @@
 package spaceLost;
 
-import spaceLost.Entidad.Jugador;
+import spaceLost.gestorJugador.Jugador;
 
 public class JuegoOxigeno {
 

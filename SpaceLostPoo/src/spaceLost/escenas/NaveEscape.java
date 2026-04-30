@@ -2,7 +2,7 @@ package spaceLost.escenas;
 
 import java.util.Scanner;
 import spaceLost.JuegoOxigeno;
-import spaceLost.Sala;
+import spaceLost.gestorSalas.Sala;
 
 public class NaveEscape extends Sala {
 

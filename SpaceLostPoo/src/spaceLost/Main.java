@@ -2,14 +2,15 @@ package spaceLost;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 import spaceLost.gestorJugador.GestorJugadores;
 import spaceLost.gestorJugador.Jugador;
 
 
-import spaceLost.gestorJugador.Jugador;
 import spaceLost.escenas.*;
 import spaceLost.excepciones.EntradaInvalidaException;
 import spaceLost.excepciones.OpcionInvalidaException;
+import spaceLost.gestorSalas.Sala;
 
 public class Main {
 
@@ -17,17 +18,24 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+        GestorJugadores gestor = new GestorJugadores();
+
+        System.out.print("Introduce tu nombre: ");
+        String nombre = sc.nextLine();
+
+        Jugador jugador = gestor.addJugador(nombre);
+
         Sala salaInicial = crearMundo();
-        Jugador jugador = new Jugador("Explorador");
         JuegoOxigeno juego = new JuegoOxigeno(jugador);
-        ejecutarMenu(sc, jugador, salaInicial, juego);
+
+        ejecutarMenu(sc, jugador, salaInicial, juego, gestor);
 
         sc.close();
     }
 
     // ====================== MENÚ ======================
 
-    private static void ejecutarMenu(Scanner sc, Jugador jugador, Sala salaInicial, JuegoOxigeno juego) {
+    private static void ejecutarMenu(Scanner sc, Jugador jugador, Sala salaInicial, JuegoOxigeno juego, GestorJugadores gestor) {
 
         int opcion;
 
@@ -38,7 +46,7 @@ public class Main {
             try {
 
                 opcion = leerOpcion(sc);
-                procesarOpcion(opcion, sc, jugador, salaInicial, juego);
+                procesarOpcion(opcion, sc, jugador, salaInicial, juego, gestor);
 
             } catch (OpcionInvalidaException e) {
 
@@ -59,7 +67,7 @@ public class Main {
     }
 
     private static void procesarOpcion(int opcion, Scanner sc,
-            Jugador jugador, Sala salaInicial, JuegoOxigeno juego) {
+            Jugador jugador, Sala salaInicial, JuegoOxigeno juego, GestorJugadores gestor) {
 
         switch (opcion) {
 
@@ -68,7 +76,7 @@ public class Main {
                 break;
 
             case 2:
-                ejecutarJuego(sc, jugador, salaInicial, juego);
+                ejecutarJuego(sc, jugador, salaInicial, juego, gestor);
 
                 break;
 
@@ -134,7 +142,7 @@ public class Main {
     }
 
 
-    private static void ejecutarJuego(Scanner sc, Jugador jugador, Sala salaInicial, JuegoOxigeno juego) {
+    private static void ejecutarJuego(Scanner sc, Jugador jugador, Sala salaInicial, JuegoOxigeno juego, GestorJugadores gestor) {
 
         Sala salaActual = salaInicial;
         ArrayList<Sala> historial = new ArrayList<>();
@@ -150,24 +158,30 @@ public class Main {
 
             int opcion;
 
-
             try {
                 opcion = LectorConsola.leerOpcionMenu(sc);
             } catch (EntradaInvalidaException e) {
                 System.out.println("⚠️ " + e.getMessage());
                 continue;
             }
+
             if (opcion == 0) {
                 salir = true;
-            } else if (opcion == 9 && !historial.isEmpty()) {
+            }
+            else if (opcion == 9 && !historial.isEmpty()) {
                 salaActual = historial.remove(historial.size() - 1);
-            } else {
-                Sala nuevaSala = salaActual.irA(opcion, jugador);
+            }
+            else {
+                Sala nuevaSala = salaActual.irA(opcion);
+
                 if (nuevaSala != salaActual) {
                     historial.add(salaActual);
                     salaActual = nuevaSala;
                 }
             }
+
+            // GUARDAR PROGRESO
+            gestor.guardarTodos();
         }
     }
-}
+        }

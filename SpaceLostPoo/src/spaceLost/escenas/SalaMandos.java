@@ -2,7 +2,7 @@ package spaceLost.escenas;
 
 import java.util.Scanner;
 import spaceLost.JuegoOxigeno;
-import spaceLost.Sala;
+import spaceLost.gestorSalas.Sala;
 import spaceLost.retos.TresEnRaya;
 
 public class SalaMandos extends Sala {
