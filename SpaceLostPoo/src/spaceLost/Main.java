@@ -2,8 +2,11 @@ package spaceLost;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import spaceLost.gestorJugador.GestorJugadores;
+import spaceLost.gestorJugador.Jugador;
 
-import spaceLost.Entidad.Jugador;
+
+import spaceLost.gestorJugador.Jugador;
 import spaceLost.escenas.*;
 import spaceLost.excepciones.EntradaInvalidaException;
 import spaceLost.excepciones.OpcionInvalidaException;
@@ -125,27 +128,11 @@ public class Main {
         conductos.conectarSala(salaMandos);
         salaMandos.conectarSala(nave);
 
-        configurarElementos(almacen, vestibulo, nave);
+
 
         return almacen;
     }
 
-    private static void configurarElementos(
-            Sala almacen,
-            Sala vestibulo,
-            Sala nave) {
-
-        Objeto tarjeta = new Objeto("Tarjeta de Acceso");
-        almacen.agregarObjeto(tarjeta);
-
-        // Enemigo en Vestíbulo
-        Enemigo alienGuardia = new Enemigo("Alien Guardia", 40, 10);
-        vestibulo.agregarEnemigo(alienGuardia);
-
-        // Enemigo final en Nave
-        Enemigo jefeFinal = new Enemigo("Alien Alfa", 80, 15);
-        nave.agregarEnemigo(jefeFinal);
-    }
 
     private static void ejecutarJuego(Scanner sc, Jugador jugador, Sala salaInicial, JuegoOxigeno juego) {
 
