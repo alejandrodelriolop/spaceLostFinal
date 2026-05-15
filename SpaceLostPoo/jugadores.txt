@@ -1,0 +1,6 @@
+Alex;Sala de Mandos;200
+Alex2;Inicio;0
+Alejandro;Sala de Mandos;200
+prueba;Inicio;0
+Prueba1;Inicio;0
+jajaja;Inicio;0
