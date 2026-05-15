@@ -1,7 +1,7 @@
 package spaceLost.escenas;
 
 import java.util.Scanner;
-import spaceLost.JuegoOxigeno;
+import spaceLost.juego.JuegoOxigeno;
 import spaceLost.gestorSalas.Sala;
 import spaceLost.retos.PiedraPapelTijera;
 

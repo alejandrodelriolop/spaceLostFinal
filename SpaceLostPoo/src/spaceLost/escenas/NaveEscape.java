@@ -1,7 +1,7 @@
 package spaceLost.escenas;
 
 import java.util.Scanner;
-import spaceLost.JuegoOxigeno;
+import spaceLost.juego.JuegoOxigeno;
 import spaceLost.gestorSalas.Sala;
 
 public class NaveEscape extends Sala {
@@ -19,7 +19,7 @@ public class NaveEscape extends Sala {
         System.out.println(
                 "Avanzas unos metros, pero nuestro \"amigo\" aparece...muy fácil había sido librarnos de ¿él?");
         System.out.println("Ves que se acerca a tí por la derecha, tienes que tomar una decisión rápida");
-        System.out.println("¿Hacía que lado vamos(izquierda/derecha");
+        System.out.println("¿Hacía que lado vamos(izquierda/derecha)");
 
         String comando = sc.nextLine().toLowerCase();
 
