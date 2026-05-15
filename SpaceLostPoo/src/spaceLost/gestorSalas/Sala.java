@@ -4,7 +4,7 @@ package spaceLost.gestorSalas;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import spaceLost.JuegoOxigeno;
+import spaceLost.juego.JuegoOxigeno;
 import spaceLost.gestorJugador.Jugador;
 import spaceLost.escenas.Escena;
 

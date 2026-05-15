@@ -2,7 +2,7 @@ package spaceLost.retos;
 
 import java.util.Random;
 import java.util.Scanner;
-import spaceLost.JuegoOxigeno;
+import spaceLost.juego.JuegoOxigeno;
 
 public class TresEnRaya extends Reto {
 
