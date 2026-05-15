@@ -1,4 +1,4 @@
-package spaceLost;
+package spaceLost.juego;
 
 import spaceLost.gestorJugador.Jugador;
 

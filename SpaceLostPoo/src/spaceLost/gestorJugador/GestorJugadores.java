@@ -38,7 +38,7 @@ public class GestorJugadores {
 
                     if (partes.length == 3) {
                         String nombre = partes[0];
-                        int sala = Integer.parseInt(partes[1]);
+                        String sala = partes[1];
                         int puntuacion = Integer.parseInt(partes[2]);
 
                         Jugador j = new Jugador(nombre, sala, puntuacion);
@@ -65,7 +65,7 @@ public class GestorJugadores {
         }
 
         public Jugador getJugador(String nombre) {
+
             return jugadores.get(nombre);
         }
     }
-}

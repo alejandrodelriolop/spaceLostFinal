@@ -1,7 +1,7 @@
 package spaceLost.retos;
 
 import java.util.Scanner;
-import spaceLost.JuegoOxigeno;
+import spaceLost.juego.JuegoOxigeno;
 
 public interface Jugable {
     
