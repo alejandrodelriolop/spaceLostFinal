@@ -1,4 +1,4 @@
-package spaceLost;
+package spaceLost.utilidades;
 
 import java.util.Scanner;
 import spaceLost.excepciones.EntradaInvalidaException;
