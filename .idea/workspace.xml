@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="Archivo que registra los jugadores">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceLostPoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceLostPoo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SpaceLostPoo/spaceLost/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/Almacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/Almacen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/Conductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/Conductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/Escena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/Escena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/NaveEscape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/NaveEscape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/SalaMandos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/SalaMandos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/escenas/Vestibulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/escenas/Vestibulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/excepciones/EntradaInvalidaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/excepciones/EntradaInvalidaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/excepciones/OpcionInvalidaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/excepciones/OpcionInvalidaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/gestorJugador/GestorJugadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/gestorJugador/GestorJugadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/gestorJugador/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/gestorJugador/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/gestorSalas/GestorSalas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/gestorSalas/GestorSalas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/gestorSalas/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/gestorSalas/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/interfaz/MenuInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/interfaz/MenuInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/interfaz/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/interfaz/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/juego/ControladorJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/juego/ControladorJuego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/juego/JuegoOxigeno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/juego/JuegoOxigeno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/juego/Mundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/juego/Mundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/Ahorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/Ahorcado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/Dados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/Dados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/Jugable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/Jugable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/PiedraPapelTijera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/PiedraPapelTijera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/Reto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/Reto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/retos/TresEnRaya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/retos/TresEnRaya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaceLost/utilidades/LectorConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spaceLost/utilidades/LectorConsola.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alejandrodelriolop&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alejandrodelriolop/spaceLostFinal.git&quot;,
+    &quot;accountId&quot;: &quot;5d06acfc-4aa7-4fe1-b5e0-c755aefb444b&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3D1oVQ736wl6WeLQq7FSSlgQqfZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Maven.SpaceLost [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/alexclase/IdeaProjects/spaceLostFinal/SpaceLostPoo/src",
+    "last_opened_file_path": "/Users/alexclase/IdeaProjects/spaceLostFinal/SpaceLostPoo",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="spaceLost.juego.Mundo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main" />
+      <recent name="java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spaceLost.juego" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="" />
+      <created>1777458959629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777458959629</updated>
+      <workItem from="1777458960847" duration="518000" />
+      <workItem from="1777541465842" duration="5146000" />
+      <workItem from="1778857965375" duration="6897000" />
+      <workItem from="1778926173013" duration="2596000" />
+    </task>
+    <task id="LOCAL-00001" summary="Correción de excepción LectorConsola que impedía avanzar">
+      <option name="closed" value="true" />
+      <created>1777459390828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777459390828</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" Borradas clases Entidad y Enemigo debido a que no se van a usar">
+      <option name="closed" value="true" />
+      <created>1777542833728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777542833729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creado GestorJugadores">
+      <option name="closed" value="true" />
+      <created>1777543137665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543137665</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modificada clase Jugador">
+      <option name="closed" value="true" />
+      <created>1777543158356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543158356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modificada Sala por haber eliminado enemigo">
+      <option name="closed" value="true" />
+      <created>1777543190359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543190359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cambiado el nombre de oaquete que contine GestorJugadores y Jugador">
+      <option name="closed" value="true" />
+      <created>1777543627546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543627546</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Eliminado Objetos que no se usaban">
+      <option name="closed" value="true" />
+      <created>1777543671070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543671070</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambiado nombre de paquete">
+      <option name="closed" value="true" />
+      <created>1777543697188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543697188</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Eliminada clase con interacción de nemigo que no se usaba">
+      <option name="closed" value="true" />
+      <created>1777543724545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777543724545</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cambios relacionados con la implementación de la clase GestorJugadores del paquete gestorJugadores">
+      <option name="closed" value="true" />
+      <created>1777547114239</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777547114239</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Limpieza del main para reducirlo al mínimo, tenía demasiadas responsanilidades">
+      <option name="closed" value="true" />
+      <created>1778868040916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868040917</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cambios insignificantes. Al mover otras clases de las que heredan el lugar del que importan el paquete ha cambiado">
+      <option name="closed" value="true" />
+      <created>1778868166099</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868166099</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Clase extraida del main que genera una partida nueva">
+      <option name="closed" value="true" />
+      <created>1778868219191</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868219191</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cambios de baja importancia. Cambio de paquetes de donde importan">
+      <option name="closed" value="true" />
+      <created>1778868331966</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868331966</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Creación e integración de interfaces gráficas">
+      <option name="closed" value="true" />
+      <created>1778868370799</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868370799</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Movido del main para que estuviera en una clase independiente dentro de un paquete nuevo llamado utilidades">
+      <option name="closed" value="true" />
+      <created>1778868422795</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868422795</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Movido del main para que estuviera en una clase independiente dentro del paquete juego">
+      <option name="closed" value="true" />
+      <created>1778868490478</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868490478</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Eliminacion de clases sin uso">
+      <option name="closed" value="true" />
+      <created>1778868571959</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868571959</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Cambios sin importancia, cambios en nombre de clases que son usadas por estas">
+      <option name="closed" value="true" />
+      <created>1778868643272</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868643272</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Archivo que registra los jugadores">
+      <option name="closed" value="true" />
+      <created>1778868661366</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1778868661366</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correción de excepción LectorConsola que impedía avanzar" />
+    <MESSAGE value=" Borradas clases Entidad y Enemigo debido a que no se van a usar" />
+    <MESSAGE value="Creado GestorJugadores" />
+    <MESSAGE value="Modificada clase Jugador" />
+    <MESSAGE value="Modificada Sala por haber eliminado enemigo" />
+    <MESSAGE value="Cambiado el nombre de oaquete que contine GestorJugadores y Jugador" />
+    <MESSAGE value="Eliminado Objetos que no se usaban" />
+    <MESSAGE value="Cambiado nombre de paquete" />
+    <MESSAGE value="Eliminada clase con interacción de nemigo que no se usaba" />
+    <MESSAGE value="Cambios relacionados con la implementación de la clase GestorJugadores del paquete gestorJugadores" />
+    <MESSAGE value="Limpieza del main para reducirlo al mínimo, tenía demasiadas responsanilidades" />
+    <MESSAGE value="Cambios insignificantes. Al mover otras clases de las que heredan el lugar del que importan el paquete ha cambiado" />
+    <MESSAGE value="Clase extraida del main que genera una partida nueva" />
+    <MESSAGE value="Cambios de baja importancia. Cambio de paquetes de donde importan" />
+    <MESSAGE value="Creación e integración de interfaces gráficas" />
+    <MESSAGE value="Movido del main para que estuviera en una clase independiente dentro de un paquete nuevo llamado utilidades" />
+    <MESSAGE value="Movido del main para que estuviera en una clase independiente dentro del paquete juego" />
+    <MESSAGE value="Eliminacion de clases sin uso" />
+    <MESSAGE value="Cambios sin importancia, cambios en nombre de clases que son usadas por estas" />
+    <MESSAGE value="Archivo que registra los jugadores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo que registra los jugadores" />
+  </component>
+</project>
