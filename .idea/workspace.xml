@@ -10,6 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -100,7 +101,7 @@
       <workItem from="1777541465842" duration="5146000" />
       <workItem from="1778857965375" duration="6897000" />
       <workItem from="1778926173013" duration="2596000" />
-      <workItem from="1778928821139" duration="4460000" />
+      <workItem from="1778928821139" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="Correción de excepción LectorConsola que impedía avanzar">
       <option name="closed" value="true" />
