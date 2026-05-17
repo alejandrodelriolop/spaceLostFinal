@@ -8,6 +8,8 @@ import spaceLost.gestorJugador.Jugador;
 import spaceLost.persistencia.JugadorDAO;
 import spaceLost.utilidades.LectorConsola;
 
+import  spaceLost.persistencia.PartidaDAO;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,6 +18,8 @@ import java.util.Scanner;
         private Jugador jugador;
         private JugadorDAO dao;
         private Sala salaActual;
+
+        private PartidaDAO partidaDAO;
 
 
         private JuegoOxigeno juego;
@@ -33,6 +37,7 @@ import java.util.Scanner;
             this.juego = juego;
             this.gestor = gestor;
             dao = new JugadorDAO();
+            partidaDAO = new PartidaDAO();
 
             historial = new ArrayList<>();
         }
@@ -78,6 +83,7 @@ import java.util.Scanner;
 
                 gestor.guardarTodos();
                 dao.actualizarJugador(jugador);
+                partidaDAO.guardarPartida(jugador);
 
             }
         }
