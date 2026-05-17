@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="Movimiento de carpetas, ningún cambio en el código" />
+    <list default="true" id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="actualización, añadido FacetManager">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/gestorJugador/Jugador.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/gestorJugador/Jugador.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/juego/ControladorJuego.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/juego/ControladorJuego.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/ConexionObjectDB.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/ConexionObjectDB.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/Main.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/Main.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/gestorJugador/Jugador.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/gestorJugador/Jugador.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/juego/ControladorJuego.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/juego/ControladorJuego.class" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/JugadorDAO.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/JugadorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -25,7 +37,13 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$USER_HOME$/Desktop/SpaceLostPoo" value="persistencia" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/SpaceLostPoo" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -35,12 +53,12 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/alejandrodelriolop/spaceLostFinal.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/alejandrodelriolop/spaceLostFinal&quot;,
     &quot;accountId&quot;: &quot;5d06acfc-4aa7-4fe1-b5e0-c755aefb444b&quot;
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
@@ -61,20 +79,25 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/alexclase/IdeaProjects/spaceLostFinal/SpaceLostPoo/src",
-    "last_opened_file_path": "/Users/alexclase/IdeaProjects/spaceLostFinal/SpaceLostPoo",
+    "last_directory_selection": "/Users/alexclase/Desktop/SpaceLostPoo/src/main/java",
+    "last_opened_file_path": "/Users/alexclase/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "two.files.diff.last.used.folder": "/Users/alexclase/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/ConexionMySQL.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="spaceLost.juego.Mundo" />
     </key>
@@ -101,7 +124,12 @@
       <workItem from="1777541465842" duration="5146000" />
       <workItem from="1778857965375" duration="6897000" />
       <workItem from="1778926173013" duration="2596000" />
-      <workItem from="1778928821139" duration="4778000" />
+      <workItem from="1778928821139" duration="6282000" />
+      <workItem from="1778935832259" duration="423000" />
+      <workItem from="1778936530256" duration="227000" />
+      <workItem from="1778937861833" duration="4408000" />
+      <workItem from="1779010212072" duration="1641000" />
+      <workItem from="1779013184310" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="Correción de excepción LectorConsola que impedía avanzar">
       <option name="closed" value="true" />
@@ -271,7 +299,63 @@
       <option name="project" value="LOCAL" />
       <updated>1778931491827</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Añadidas dependencias y repositorios para ObjectDB">
+      <option name="closed" value="true" />
+      <created>1779014167800</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1779014167801</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Añadido @Entity para usar  ObjectDB">
+      <option name="closed" value="true" />
+      <created>1779014196366</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1779014196366</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Creada clase ConexionObjectDB para conectar la BBDD con las entidades">
+      <option name="closed" value="true" />
+      <created>1779014520638</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1779014520638</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Creada clase PartidaDAO encargada de guardar y cargar partidas">
+      <option name="closed" value="true" />
+      <created>1779014771821</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1779014771821</updated>
+    </task>
+    <task id="LOCAL-00026" summary="cambio de dependencias de jakarta a javax por incompatibilidad">
+      <option name="closed" value="true" />
+      <created>1779016521045</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1779016521045</updated>
+    </task>
+    <task id="LOCAL-00027" summary="cambio de import jakarta a import javax">
+      <option name="closed" value="true" />
+      <created>1779016551130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1779016551130</updated>
+    </task>
+    <task id="LOCAL-00028" summary="actualización, añadido FacetManager">
+      <option name="closed" value="true" />
+      <created>1779016592692</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1779016592692</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,9 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correción de excepción LectorConsola que impedía avanzar" />
-    <MESSAGE value=" Borradas clases Entidad y Enemigo debido a que no se van a usar" />
-    <MESSAGE value="Creado GestorJugadores" />
     <MESSAGE value="Modificada clase Jugador" />
     <MESSAGE value="Modificada Sala por haber eliminado enemigo" />
     <MESSAGE value="Cambiado el nombre de oaquete que contine GestorJugadores y Jugador" />
@@ -316,6 +397,13 @@
     <MESSAGE value="Cambios sin importancia, cambios en nombre de clases que son usadas por estas" />
     <MESSAGE value="Archivo que registra los jugadores" />
     <MESSAGE value="Movimiento de carpetas, ningún cambio en el código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movimiento de carpetas, ningún cambio en el código" />
+    <MESSAGE value="Añadidas dependencias y repositorios para ObjectDB" />
+    <MESSAGE value="Añadido @Entity para usar  ObjectDB" />
+    <MESSAGE value="Creada clase ConexionObjectDB para conectar la BBDD con las entidades" />
+    <MESSAGE value="Creada clase PartidaDAO encargada de guardar y cargar partidas" />
+    <MESSAGE value="cambio de dependencias de jakarta a javax por incompatibilidad" />
+    <MESSAGE value="cambio de import jakarta a import javax" />
+    <MESSAGE value="actualización, añadido FacetManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualización, añadido FacetManager" />
   </component>
 </project>
