@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 # IntelliJ
 .idea/
 *.iml
+/shelf/
+/workspace.xml
 
 # Java compilado
 out/
@@ -10,8 +11,3 @@ target/
 
 # Logs
 *.log
-=======
-# Default ignored files
-/shelf/
-/workspace.xml
->>>>>>> 3459811db6bc2ff8fa2435201274412f6c07478d
