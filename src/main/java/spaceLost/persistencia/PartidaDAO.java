@@ -11,7 +11,7 @@ public class PartidaDAO {
 
         em.getTransaction().begin();
 
-        em.persist(jugador);
+        em.merge(jugador);
 
         em.getTransaction().commit();
 
