@@ -1,1 +1,9 @@
+Ahora sí;Sala de Mandos;150
+PRUEEEBA;Vestíbulo;50
+ALEXPRUEBA;Vestíbulo;50
+Prueba2233;Inicio;0
+aaaaa;Nave;200
+Alejandro dRRL;Vestíbulo;50
+Actualizar;Vestíbulo;50
 AlexPrueba;Sala de Mandos;200
+Alejandrod dRL;Conductos;100
