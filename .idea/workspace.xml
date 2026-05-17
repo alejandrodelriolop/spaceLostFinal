@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="cambio de jakarta a javax">
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/SpaceLostPoo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/SpaceLostPoo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/SpaceLostPoo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/SpaceLostPoo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/SpaceLostPoo/jugadores.txt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/ConexionMySQL.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/ConexionMySQL.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/JugadorDAO.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/JugadorDAO.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/PartidaDAO.java" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/src/main/java/spaceLost/persistencia/PartidaDAO.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/Main.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/Main.class" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/juego/ControladorJuego.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/juego/ControladorJuego.class" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/ConexionMySQL.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/ConexionMySQL.class" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/JugadorDAO.class" beforeDir="false" afterPath="$USER_HOME$/Desktop/SpaceLostPoo/target/classes/spaceLost/persistencia/JugadorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ba9d02ef-e6ed-46ed-936c-8364aaaddcd2" name="Changes" comment="actualizaciones" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ChangesViewManager">
+    <option name="groupingKeys" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -133,7 +120,7 @@
       <workItem from="1778936530256" duration="227000" />
       <workItem from="1778937861833" duration="4408000" />
       <workItem from="1779010212072" duration="1641000" />
-      <workItem from="1779013184310" duration="4414000" />
+      <workItem from="1779013184310" duration="5183000" />
     </task>
     <task id="LOCAL-00001" summary="Correción de excepción LectorConsola que impedía avanzar">
       <option name="closed" value="true" />
@@ -407,7 +394,39 @@
       <option name="project" value="LOCAL" />
       <updated>1779016848959</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="mala configuración de la clase update que hacia que no funcionara la BBDD">
+      <option name="closed" value="true" />
+      <created>1779018498099</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1779018498099</updated>
+    </task>
+    <task id="LOCAL-00036" summary="cambio de em.persist a em.merge">
+      <option name="closed" value="true" />
+      <created>1779018523798</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1779018523798</updated>
+    </task>
+    <task id="LOCAL-00037" summary="cambio de URL al estar mal escrita originalmente y no encontrar la BBDD">
+      <option name="closed" value="true" />
+      <created>1779018599810</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1779018599810</updated>
+    </task>
+    <task id="LOCAL-00038" summary="actualizaciones">
+      <option name="closed" value="true" />
+      <created>1779018615858</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1779018615858</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,10 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Eliminado Objetos que no se usaban" />
-    <MESSAGE value="Cambiado nombre de paquete" />
-    <MESSAGE value="Eliminada clase con interacción de nemigo que no se usaba" />
-    <MESSAGE value="Cambios relacionados con la implementación de la clase GestorJugadores del paquete gestorJugadores" />
     <MESSAGE value="Limpieza del main para reducirlo al mínimo, tenía demasiadas responsanilidades" />
     <MESSAGE value="Cambios insignificantes. Al mover otras clases de las que heredan el lugar del que importan el paquete ha cambiado" />
     <MESSAGE value="Clase extraida del main que genera una partida nueva" />
@@ -456,6 +471,10 @@
     <MESSAGE value="añadido método &#10;actualizarJugador" />
     <MESSAGE value="import de la clase persistencia.PartidaDAO" />
     <MESSAGE value="cambio de jakarta a javax" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio de jakarta a javax" />
+    <MESSAGE value="mala configuración de la clase update que hacia que no funcionara la BBDD" />
+    <MESSAGE value="cambio de em.persist a em.merge" />
+    <MESSAGE value="cambio de URL al estar mal escrita originalmente y no encontrar la BBDD" />
+    <MESSAGE value="actualizaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizaciones" />
   </component>
 </project>
