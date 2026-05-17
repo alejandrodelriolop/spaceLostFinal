@@ -1,6 +1,6 @@
 package spaceLost.persistencia;
 
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import spaceLost.gestorJugador.Jugador;
 
 public class PartidaDAO {
