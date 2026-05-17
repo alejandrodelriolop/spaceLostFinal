@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionMySQL {
 
 
-    private static final String URL = "jbdc:mysql://localhost:3306/spaceLostMySQL";
+    private static final String URL = "jdbc:mysql://localhost:3306/spaceLostMySQL";
 
     private static final String USER = "root";
 
