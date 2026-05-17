@@ -69,27 +69,28 @@ public class JugadorDAO {
     public void actualizarJugador(Jugador jugador) {
 
         String sql = """
-                UPDATE INTO jugadores
-                (nombre, sala_actual, puntuacion)
-                VALUES(?,?,?)
+        UPDATE jugadores
+        SET sala_actual = ?,
+        puntuacion = ?
+                WHERE nombre = ?
                 """;
-        try (Connection con = ConexionMySQL.conectar();
-             PreparedStatement ps = con.prepareStatement(sql)) {
+            try (Connection con = ConexionMySQL.conectar();
+                 PreparedStatement ps = con.prepareStatement(sql)) {
 
-            ps.setString(1, jugador.getNombre());
+                ps.setString(1, jugador.getSalaActual());
 
-            ps.setString(2, jugador.getSalaActual());
+                ps.setInt(2, jugador.getPuntuacion());
 
-            ps.setInt(3, jugador.getPuntuacion());
+                ps.setString(3, jugador.getNombre());
 
-            ps.executeUpdate();
+                ps.executeUpdate();
 
-            System.out.println("Jugador actualizado en MySQL");
-        } catch (SQLException e) {
-            System.out.println("Error al actualizar jugador");
-            e.printStackTrace();
+                System.out.println("Jugador actualizado en MySQL");
+            } catch (SQLException e) {
+                System.out.println("Error al actualizar jugador");
+                e.printStackTrace();
+            }
+
         }
 
     }
-
-}
