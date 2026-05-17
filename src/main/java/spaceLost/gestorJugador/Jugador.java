@@ -1,11 +1,14 @@
 package spaceLost.gestorJugador;
 
+import jakarta.persistence.*;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
+@Entity
 public class Jugador {
-
+    @Id
+    @GeneratedValue
+    private Long id;
     private String nombre;
     private String salaActual;
     private int puntuacion;
@@ -21,6 +24,10 @@ public class Jugador {
         this.nombre = nombre;
         this.salaActual = salaActual;
         this.puntuacion = puntuacion;
+    }
+
+    public Jugador() {
+
     }
 
     public String getNombre() {
